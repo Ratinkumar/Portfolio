@@ -6,6 +6,7 @@ import heartDisease from "../../Assets/Projects/heart-disease.png";
 import chatWebsite from "../../Assets/Projects/chat_ with_websites.png";
 import EmotionDetection from "../../Assets/Projects/Emotion_detection_using_voice.png";
 import HotelReview from "../../Assets/Projects/Hotel_reviews_ analysis.png";
+import emojify from "../../Assets/Projects/emojify.png";
 
 function Projects() {
   return (
@@ -19,6 +20,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emojify}
+              isBlog={false}
+              title="Emojify"
+              description="In this Project Emojify I have created a model which will predict an emoji based on my live expressions. This project is purely based on CNN and Computer Vision. For this project I have created my own dataset and then trained my model with that dataset. I mainly considered five emotions (i.e. Angry, Happy, Sad, Neutral and Shock)."
+              ghLink="https://github.com/Ratinkumar/Emojify"
+              // demoLink=""
+            />
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard

@@ -424,8 +424,15 @@ button:focus {
   .footer-body {
     text-align: center !important;
   }
+  .row{
+    flex-direction: column;
+    gap: 20px;
+  }
 }
+.row h3{
+  font-weight: bold;
 
+ }
 .footer h3 {
   font-size: 1em;
   color: white !important;

@@ -13,7 +13,7 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer" id="contact">
-      <Row>
+      <Row className="row">
         <Col className="contact-info">
 
           <h3>Ratin Kumar's Portfolio</h3>

@@ -23,6 +23,7 @@ import {
   SiScikitlearn,
   SiTensorflow,
   SiDialogflow,
+  SiPowerbi
 } from "react-icons/si";
 import { 
   GrMysql 
@@ -120,6 +121,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiLinux />
         <small style={{ display: 'block', marginTop: '1px', fontSize: '25px' }}>Linux</small>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPowerbi />
+        <small style={{ display: 'block', marginTop: '1px', fontSize: '25px' }}>Power BI</small>
       </Col>
     </Row>
   );

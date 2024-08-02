@@ -7,6 +7,7 @@ import chatWebsite from "../../Assets/Projects/chat_ with_websites.png";
 import EmotionDetection from "../../Assets/Projects/Emotion_detection_using_voice.png";
 import HotelReview from "../../Assets/Projects/Hotel_reviews_ analysis.png";
 import emojify from "../../Assets/Projects/emojify.png";
+import dashboard from "../../Assets/Projects/Dashboard.png";
 
 function Projects() {
   return (
@@ -72,6 +73,17 @@ function Projects() {
               title="Hotel Review Analysis"
               description="In this Project Hotel review analysis,covers data preprocessing, feature extraction using Doc2Vec and TF-IDF, training a Random Forest Classifier, and evaluating the model using ROC and Precision-Recall curves. It also includes visualizations such as word cloud for the review data and sentiment distribution for positive and negative reviews."
               ghLink="https://github.com/Ratinkumar/Hotel-Review-Analysis"
+              //demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dashboard}
+              isBlog={false}
+              title="Ecommerce Sales Dashboard"
+              description="This project involves analyzing e-commerce sales data and creating an interactive dashboard using Power BI. The dashboard provides insights into various aspects of sales performance and customer behavior."
+              ghLink="https://github.com/Ratinkumar/Ecommerce-Sales-Dashboard"
               //demoLink=""
             />
           </Col>
